@@ -1,0 +1,49 @@
+/*-- sticky nav bar to the top ----*/
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+
+}
+/*-- logo smaller size --*/
+.navbar-brand img
+{
+    height: 40px;
+    padding-left: 30px;
+
+}
+
+/* this one is for a space between nav bar */
+
+.navbar-nav li
+{
+    padding: 0 10px;
+
+}
+
+.navbar-nav li a
+{
+    float: right;
+    text-align: left;
+    
+}
+/* when you choose the nav bar, it's become blue color */
+#nav-bar ul li a:hover{
+    color: #007bff!important;
+}
+/* making nav bar with one smae font size and style ant toggle menu too, that one with thee lines*/
+.navbar
+{
+    background: #fff; 
+}
+.navbar-toggler
+{
+    border: none!important;
+}
+.nav-link
+{
+    color: #555!important;
+    font-weight: 600;
+    font-size: 16px;
+}
