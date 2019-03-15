@@ -47,3 +47,8 @@
     font-weight: 600;
     font-size: 16px;
 }
+#slider{
+    width: 80%;
+    padding: 10px;
+    margin: auto;
+}
